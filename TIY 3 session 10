@@ -1,0 +1,12 @@
+#include <stdio.h> 
+int main() {   
+    int i, j , max, yeet;   
+    printf("Please enter the number value \n");  
+    printf("for which a table can be printed: ");  
+    scanf("%d", &max);  
+    printf("Enter how many number u want to multiply:");
+    scanf("%d",&yeet);
+    for(i = max , j = 1 ; j<=yeet ; j++)  
+    printf("\n%d * %d = %d",i, j, i * j); 
+    return 0;
+}
